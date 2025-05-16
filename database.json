@@ -4,37 +4,37 @@
             "id": 1,
             "fullName": "Clemens Jasim",
             "email": "CJ3@gmail.com",
-            "cohord": 1
+            "cohort": 1
         }, 
         {
             "id": 2,
             "fullName": "Wally Wells",
             "email": "wellsWalls@yahoo.com",
-            "cohord": 1
+            "cohort": 1
         },
         {
             "id": 3,
             "fullName": "Koios Iddo",
             "email": "IddoK@usa.org",
-            "cohord": 2
+            "cohort": 2
         },
         {
             "id": 4,
             "fullName": "Koos Therapon",
             "email": "KoosKoos@random.com",
-            "cohord": 3
+            "cohort": 3
         },
         {
             "id": 5,
             "fullName": "Dimo Aoi",
             "email": "DinoDimo@extinct.net",
-            "cohord": 1
+            "cohort": 1
         },
         {
             "id": 6,
             "fullName": "Loki Columbine",
             "email": "LokiNotThor@marvel.org",
-            "cohord": 3
+            "cohort": 3
         }
     ], 
     "topics": [
@@ -67,7 +67,7 @@
             "title": "Cooking Salmon",
             "body": "Preheat oven to 400°F, pat salmon dry and season with salt, pepper and herbs. Bake for 15mins or until salmon is opaque.",
             "postDate": "2025-05-15",
-            "favorite": true
+            "favoriteIds": [3, 4, 6]
         },
         {
             "id": 2,
@@ -76,7 +76,7 @@
             "title": "Fibonacci Sequence",
             "body": "The Fibonacci sequence is a sequence in which each element is the sum of the two elements that precede it, the formula is Fn = Fn-1 + Fn-2",
             "postDate": "2025-05-11",
-            "favorite": false
+            "favoriteIds": []
         },
         {
             "id": 3,
@@ -85,7 +85,7 @@
             "title": "Functions",
             "body": "Functions are self-contained blocks of code that are used to perform specific task/calculations, it can be defined once and called multiple times, making the program more organized and readable.",
             "postDate": "2025-05-09",
-            "favorite": false
+            "favoriteIds": [1, 2]
         },
         {
             "id": 4,
@@ -94,7 +94,7 @@
             "title": "Asynchronous Programming",
             "body": "Allowing processes to run independently of the main program flow, rather than waiting for them to complete before proceeding, in Javascript async/await is an example of asyncronous programming.",
             "postDate": "2025-05-12",
-            "favorite": true
+            "favoriteIds": [2, 3]
         },
         {
             "id": 5,
@@ -103,7 +103,7 @@
             "title": "Standard Guitar Tuning",
             "body": "A guitar has 6 strings, the standard tuning from lowest string is as follows: EADGBE.",
             "postDate": "2025-05-09",
-            "favorite": false
+            "favoriteIds": [3]
         },
         {
             "id": 6,
@@ -112,7 +112,7 @@
             "title": "keyword: 'const'",
             "body": "The 'const' keyword in JavaScript is used to declare a constant variable, meaning its value cannot be reassigned after its initial assignment.",
             "postDate": "2025-05-13",
-            "favorite": true
+            "favoriteIds": [5, 6]
         },
         {
             "id": 7,
@@ -121,7 +121,7 @@
             "title": "Cooking Ravioli",
             "body": "Fill pot with water, then bring it to a boil. Add salt and ravioli and cook until ravioli floats to the surface.",
             "postDate": "2025-05-12",
-            "favorite": false
+            "favoriteIds": []
         },
         {
             "id": 8,
@@ -130,7 +130,7 @@
             "title": "keyword: 'let'",
             "body": "The let keyword in JavaScript declares block-scoped local variables, it provides an alternative to var(function-scoped) with improved scoping rules. It's value can also be altered unlike a 'const' variable.",
             "postDate": "2025-05-11",
-            "favorite": false
+            "favoriteIds": [2, 6, 1]
         },
         {
             "id": 9,
@@ -139,7 +139,7 @@
             "title": "Piano",
             "body": "The piano has 88 notes, every 12 notes is considered an octave and a whole rotation around the scale. There are also 12 keys scales in western contempoary music.",
             "postDate": "2025-05-11",
-            "favorite": true
+            "favoriteIds": [4, 1, 2, 3]
         },
         {
             "id": 10,
@@ -148,7 +148,7 @@
             "title": "Pi",
             "body": "A mathmatical constant that approximately equal to 3.14159, which is the ratio of a circle's circumference to its diameter.",
             "postDate": "2025-05-15",
-            "favorite": true
+            "favoriteIds": [5]
         }
     ]
 }
