@@ -1,0 +1,154 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "Clemens Jasim",
+            "email": "CJ3@gmail.com",
+            "cohord": 1
+        }, 
+        {
+            "id": 2,
+            "fullName": "Wally Wells",
+            "email": "wellsWalls@yahoo.com",
+            "cohord": 1
+        },
+        {
+            "id": 3,
+            "fullName": "Koios Iddo",
+            "email": "IddoK@usa.org",
+            "cohord": 2
+        },
+        {
+            "id": 4,
+            "fullName": "Koos Therapon",
+            "email": "KoosKoos@random.com",
+            "cohord": 3
+        },
+        {
+            "id": 5,
+            "fullName": "Dimo Aoi",
+            "email": "DinoDimo@extinct.net",
+            "cohord": 1
+        },
+        {
+            "id": 6,
+            "fullName": "Loki Columbine",
+            "email": "LokiNotThor@marvel.org",
+            "cohord": 3
+        }
+    ], 
+    "topics": [
+        {
+            "id": 1,
+            "name": "Cooking",  
+            "description": "The process of preparing food for consumption."
+        }, 
+        {
+            "id": 2, 
+            "name": "Mathmatics",
+            "description": "The abstract science of number, quantity, and space."
+        },
+        {
+            "id": 3,
+            "name": "Music",
+            "description": "An art form that organizes sound to create rhythm, melody, and harmony."
+        },
+        {
+            "id": 4,
+            "name": "Computer Science",
+            "description": "The study of the principles and use of computers."
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "userId": 1,
+            "topicId": 1,
+            "title": "Cooking Salmon",
+            "body": "Preheat oven to 400°F, pat salmon dry and season with salt, pepper and herbs. Bake for 15mins or until salmon is opaque.",
+            "postDate": "2025-05-15",
+            "favorite": true
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "topicId": 2,
+            "title": "Fibonacci Sequence",
+            "body": "The Fibonacci sequence is a sequence in which each element is the sum of the two elements that precede it, the formula is Fn = Fn-1 + Fn-2",
+            "postDate": "2025-05-11",
+            "favorite": false
+        },
+        {
+            "id": 3,
+            "userId": 4,
+            "topicId": 4,
+            "title": "Functions",
+            "body": "Functions are self-contained blocks of code that are used to perform specific task/calculations, it can be defined once and called multiple times, making the program more organized and readable.",
+            "postDate": "2025-05-09",
+            "favorite": false
+        },
+        {
+            "id": 4,
+            "userId": 1,
+            "topicId": 4,
+            "title": "Asynchronous Programming",
+            "body": "Allowing processes to run independently of the main program flow, rather than waiting for them to complete before proceeding, in Javascript async/await is an example of asyncronous programming.",
+            "postDate": "2025-05-12",
+            "favorite": true
+        },
+        {
+            "id": 5,
+            "userId": 2,
+            "topicId": 3,
+            "title": "Standard Guitar Tuning",
+            "body": "A guitar has 6 strings, the standard tuning from lowest string is as follows: EADGBE.",
+            "postDate": "2025-05-09",
+            "favorite": false
+        },
+        {
+            "id": 6,
+            "userId": 3,
+            "topicId": 4,
+            "title": "keyword: 'const'",
+            "body": "The 'const' keyword in JavaScript is used to declare a constant variable, meaning its value cannot be reassigned after its initial assignment.",
+            "postDate": "2025-05-13",
+            "favorite": true
+        },
+        {
+            "id": 7,
+            "userId": 5,
+            "topicId": 1,
+            "title": "Cooking Ravioli",
+            "body": "Fill pot with water, then bring it to a boil. Add salt and ravioli and cook until ravioli floats to the surface.",
+            "postDate": "2025-05-12",
+            "favorite": false
+        },
+        {
+            "id": 8,
+            "userId": 3,
+            "topicId": 4,
+            "title": "keyword: 'let'",
+            "body": "The let keyword in JavaScript declares block-scoped local variables, it provides an alternative to var(function-scoped) with improved scoping rules. It's value can also be altered unlike a 'const' variable.",
+            "postDate": "2025-05-11",
+            "favorite": false
+        },
+        {
+            "id": 9,
+            "userId": 6,
+            "topicId": 3,
+            "title": "Piano",
+            "body": "The piano has 88 notes, every 12 notes is considered an octave and a whole rotation around the scale. There are also 12 keys scales in western contempoary music.",
+            "postDate": "2025-05-11",
+            "favorite": true
+        },
+        {
+            "id": 10,
+            "userId": 3,
+            "topicId": 2,
+            "title": "Pi",
+            "body": "A mathmatical constant that approximately equal to 3.14159, which is the ratio of a circle's circumference to its diameter.",
+            "postDate": "2025-05-15",
+            "favorite": true
+        }
+    ]
+}
